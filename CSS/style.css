@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(179, 175, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-form{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow:0 0 5px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background-color: #0047AB;
+    padding: 30px;
+}
+.tittle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #473d3d;
+    margin-bottom: 20px;
+}
+.input-box{
+    width: 90%;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    background-color:#E5E4E2;
+}
+.input-box input:focus{
+    outline: none;
+    box-shadow: 0 0 5px #0047AB;
+    background-color: #f2ebeb;
+}
+.input-box label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #403c3c;
+}
+.sign_in-bnt{
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0047AB;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.sign_in-bnt input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #0047AB;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign_in-bnt:active{
+    box-shadow:0 0 10px #4e4545;
+}
+
