@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #fafffa;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+.title{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color:#786b6b
+}
+.title .logo{
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #0047AB;
+}
+.buttons .logout-bnt{
+    background-color: #0047AB;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.buttons .logout-bnt:active{
+    box-shadow:0 0 10px #4e4545;
+}
+.buttons .logout-bnt:hover{
+    background-color: #295ea8;
+}
+.nav-bar{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+.nav-bar .nav-list{
+    width: 100%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+.nav-bar .nav-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #403c3c;
+    padding: 9px 80px;
+}
+.nav-bar .nav-list li a:hover{
+    background-color: #457fd1;
+    color: white;
+    border-radius: 20px;
+}
+.nav-bar .nav-list li a:active{
+    background-color: #295ea8;
+    color: white;
+    border-radius: 20px;
+    box-shadow:0 0 10px #4e4545;
+}
+
+
+
+
+

@@ -29,12 +29,12 @@ form{
     align-items: center;
 }
 .logo{
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     border-radius: 50%;
     margin-bottom: 25px;
     background-color: #0047AB;
-    padding: 30px;
+    padding: 25px;
 }
 .tittle{
     font-size: 18px;
@@ -96,4 +96,3 @@ form{
 .sign_in-bnt:active{
     box-shadow:0 0 10px #4e4545;
 }
-
