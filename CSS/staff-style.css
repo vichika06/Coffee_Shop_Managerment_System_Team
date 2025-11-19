@@ -92,8 +92,7 @@
     border-radius: 50%;
 }
 .staff-name-status-role{
-    display: grid;
-    grid-template-columns: repeat(1,2);
+    display: block;
     align-items: center;
 }
 .staff-name-status-role .staff-name{
@@ -105,6 +104,7 @@
 .staff-name-status-role .staff-role, .staff-status{
     font-size: 10px;
     color: #ffffff;
+    display: inline-block;
     margin-top: 5px;
     background-color: #457fd1;
     border-radius: 10px;
@@ -114,6 +114,7 @@
 .staff-contact-info {
     color: #333333;
     padding: 10px;
+    font-size: 14px;
 }
 .staff-card-btn{
     margin-top: 10px;
@@ -130,8 +131,6 @@
     cursor: pointer;
 }
 .edit-staff-btn, .delete-staff-btn {
-    background-color: #0047AB;
-    color: white;
     border: none;
     border-radius: 10px;
     padding: 10px 10px;
@@ -139,8 +138,19 @@
     cursor: pointer;
     display: flex;
 }
-.add-staff-btn:hover, .delete-staff-btn:hover, .deactivate-staff-btn:hover,.edit-staff-btn:hover {
+.edit-staff-btn {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.delete-staff-btn {
+    background: #fff0f0;
+    border: 1px solid #ffb3b3;
+}
+.add-staff-btn:hover, .deactivate-staff-btn:hover,.edit-staff-btn:hover {
     background-color: #457fd1;
+}
+.delete-staff-btn:hover {
+    background-color: #ffb3b3;
 }
 .add-staff-btn:active, .delete-staff-btn:active, .deactivate-staff-btn:active,.edit-staff-btn:active {
     box-shadow:0 0 10px #4e4545;
