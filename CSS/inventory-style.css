@@ -1,0 +1,250 @@
+.inventory-btn{
+    background-color: #457fd1;
+    color: white;
+    border-radius: 20px;
+}
+.inventory-management{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(91, 88, 88, 0.1);
+}
+.inventory-title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-inventory-btn{
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #0047AB;
+    color: white;
+    border: none;
+}
+.add-inventory-btn:hover{
+    background-color: #457fd1;
+}
+.add-inventory-btn:active{
+    box-shadow:0 0 10px #4e4545;
+}
+.low-stock-alert-info{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 240, 201);
+    border: 1px solid #d2ab48;
+    padding: 20px;
+}
+.low-stock-alert-title{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #d9534f;
+}
+.low-stock-alert-message{
+    font-size: 16px;
+    color: #d9534f;
+}
+.low-stock-alert-card-group{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.low-stock-alert-card{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.low-stock-alert-quantity-and-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item-name{
+    font-size: 18px;
+    color: #403c3c;
+}
+.low-stock-alert-restock-btn{
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.low-stock-alert-restock-btn:hover{
+    background-color: #323a46;
+}
+.low-stock-alert-restock-btn:active{
+    box-shadow:0 0 10px #4e4545;
+}
+.inventory-card-group{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 20px;
+}
+.inventory-card {
+    width: 450px;
+    background: #fff;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.inventory-header {
+    display: block;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.inventory-card-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.inventory-status {
+    padding: 4px 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    color: #444;
+    background: #eee;
+}
+
+.inventory-status.low {
+    background: #ffe5e5;
+    color: #d90000;
+}
+
+/* STOCK LEVEL */
+.inventory-section {
+    margin: 15px 0;
+}
+
+.inventory-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.inventory-stock-text {
+    font-size: 14px;
+    float: right;
+    margin-top: -20px;
+    color: #444;
+}
+
+.inventory-progress {
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.inventory-progress-bar {
+    height: 10px;
+    background: #101020;
+    border-radius: 10px;
+    width: 40%;
+}
+
+/* INFO SECTION */
+.inventory-info {
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+    margin-top: 10px;
+}
+
+.inventory-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.inventory-info-block {
+    margin-bottom: 18px;
+}
+
+.info-label {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.info-value {
+    margin: 4px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ACTION BUTTONS */
+.inventory-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-restock {
+    background-color: #0047AB;
+    color: white;
+    padding:  10px 73px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-edit,
+.btn-delete {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.btn-edit {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-delete {
+    background: #fff0f0;
+    border: 1px solid #ffb3b3;
+}
+.btn-edit:hover {
+    background-color: #f0f0f0;
+}
+.btn-delete:hover {
+    background-color: #ffe5e5;
+}
+.btn-restock:hover {
+    background-color: #457fd1;
+}
+.btn-restock:active ,.btn-edit:active, .btn-delete:active {
+    box-shadow:0 0 10px #4e4545;
+}

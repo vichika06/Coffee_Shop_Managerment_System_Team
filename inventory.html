@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/main-style.css">
+    <link rel="stylesheet" href="CSS/inventory-style.css">
     <script src="https://kit.fontawesome.com/51487f9546.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,5 +30,274 @@
             <li><a href="staff.html" class="staff-btn"><i class="fa-solid fa-users"></i> Staff</a></li>
         </ul>
     </nav>
+    <section class="inventory-management">
+        <div class="inventory-title">
+            <p class="text">Inventory Management</p>
+            <button class="add-inventory-btn"><i class="fa-solid fa-plus"></i> Add Inventory Item</button>
+        </div>
+        <div class="low-stock-alert-info">
+            <div class="low-stock-alert-title"><i class="fa-solid fa-triangle-exclamation"></i> Low Stock Alert</div>
+            <div class="low-stock-alert-message">4 item(s) need restocking</div>
+            <div class="low-stock-alert-card-group">
+                <div class="low-stock-alert-card">
+                    <div class="item-name">Espresso Beans</div>
+                    <div class="low-stock-alert-quantity-and-btn">
+                        <div class="low-stock-alert-quantity">15 / 50 kg</div>
+                        <button class="low-stock-alert-restock-btn"><i class="fa-solid fa-cart-plus"></i> Restock</button>
+                    </div>
+                </div>
+                <div class="low-stock-alert-card">
+                    <div class="item-name">Espresso Beans</div>
+                    <div class="low-stock-alert-quantity-and-btn">
+                        <div class="low-stock-alert-quantity">15 / 50 kg</div>
+                        <button class="low-stock-alert-restock-btn"><i class="fa-solid fa-cart-plus"></i> Restock</button>
+                    </div>
+                </div>
+                <div class="low-stock-alert-card">
+                    <div class="item-name">Espresso Beans</div>
+                    <div class="low-stock-alert-quantity-and-btn">
+                        <div class="low-stock-alert-quantity">15 / 50 kg</div>
+                        <button class="low-stock-alert-restock-btn"><i class="fa-solid fa-cart-plus"></i> Restock</button>
+                    </div>
+                </div>
+                <div class="low-stock-alert-card">
+                    <div class="item-name">Espresso Beans</div>
+                    <div class="low-stock-alert-quantity-and-btn">
+                        <div class="low-stock-alert-quantity">15 / 50 kg</div>
+                        <button class="low-stock-alert-restock-btn"><i class="fa-solid fa-cart-plus"></i> Restock</button>
+                    </div>
+                </div>
+                <div class="low-stock-alert-card">
+                    <div class="item-name">Espresso Beans</div>
+                    <div class="low-stock-alert-quantity-and-btn">
+                        <div class="low-stock-alert-quantity">15 / 50 kg</div>
+                        <button class="low-stock-alert-restock-btn"><i class="fa-solid fa-cart-plus"></i> Restock</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inventory-card-group">
+            <div class="inventory-card">
+                <div class="inventory-header">
+                    <h2 class="inventory-card-title">Coffee Beans</h2>
+                    <span class="inventory-status low">Low Stock</span>
+                </div>
+
+                <div class="inventory-section">
+                    <p class="inventory-label">Stock Level</p>
+                    <p class="inventory-stock-text">15 / 50 kg</p>
+
+                    <div class="inventory-progress">
+                        <div class="inventory-progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="inventory-info">
+                    <div class="inventory-info-row">
+                        <div>
+                            <p class="info-label">Min Stock</p>
+                            <p class="info-value">10 kg</p>
+                        </div>
+                        <div>
+                            <p class="info-label">Unit Cost</p>
+                            <p class="info-value">$12.50</p>
+                        </div>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Supplier</p>
+                        <p class="info-value">Premium Coffee Co.</p>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Last Restocked</p>
+                        <p class="info-value">11/15/2025</p>
+                    </div>
+                </div>
+
+                <div class="inventory-actions">
+                    <button class="btn-restock">Restock to Max</button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+            <div class="inventory-card">
+                <div class="inventory-header">
+                    <h2 class="inventory-card-title">Coffee Beans</h2>
+                    <span class="inventory-status low">Low Stock</span>
+                </div>
+
+                <div class="inventory-section">
+                    <p class="inventory-label">Stock Level</p>
+                    <p class="inventory-stock-text">15 / 50 kg</p>
+
+                    <div class="inventory-progress">
+                        <div class="inventory-progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="inventory-info">
+                    <div class="inventory-info-row">
+                        <div>
+                            <p class="info-label">Min Stock</p>
+                            <p class="info-value">10 kg</p>
+                        </div>
+                        <div>
+                            <p class="info-label">Unit Cost</p>
+                            <p class="info-value">$12.50</p>
+                        </div>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Supplier</p>
+                        <p class="info-value">Premium Coffee Co.</p>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Last Restocked</p>
+                        <p class="info-value">11/15/2025</p>
+                    </div>
+                </div>
+
+                <div class="inventory-actions">
+                    <button class="btn-restock">Restock to Max</button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+            <div class="inventory-card">
+                <div class="inventory-header">
+                    <h2 class="inventory-card-title">Coffee Beans</h2>
+                    <span class="inventory-status low">Low Stock</span>
+                </div>
+
+                <div class="inventory-section">
+                    <p class="inventory-label">Stock Level</p>
+                    <p class="inventory-stock-text">15 / 50 kg</p>
+
+                    <div class="inventory-progress">
+                        <div class="inventory-progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="inventory-info">
+                    <div class="inventory-info-row">
+                        <div>
+                            <p class="info-label">Min Stock</p>
+                            <p class="info-value">10 kg</p>
+                        </div>
+                        <div>
+                            <p class="info-label">Unit Cost</p>
+                            <p class="info-value">$12.50</p>
+                        </div>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Supplier</p>
+                        <p class="info-value">Premium Coffee Co.</p>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Last Restocked</p>
+                        <p class="info-value">11/15/2025</p>
+                    </div>
+                </div>
+
+                <div class="inventory-actions">
+                    <button class="btn-restock">Restock to Max</button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+            <div class="inventory-card">
+                <div class="inventory-header">
+                    <h2 class="inventory-card-title">Coffee Beans</h2>
+                    <span class="inventory-status low">Low Stock</span>
+                </div>
+
+                <div class="inventory-section">
+                    <p class="inventory-label">Stock Level</p>
+                    <p class="inventory-stock-text">15 / 50 kg</p>
+
+                    <div class="inventory-progress">
+                        <div class="inventory-progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="inventory-info">
+                    <div class="inventory-info-row">
+                        <div>
+                            <p class="info-label">Min Stock</p>
+                            <p class="info-value">10 kg</p>
+                        </div>
+                        <div>
+                            <p class="info-label">Unit Cost</p>
+                            <p class="info-value">$12.50</p>
+                        </div>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Supplier</p>
+                        <p class="info-value">Premium Coffee Co.</p>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Last Restocked</p>
+                        <p class="info-value">11/15/2025</p>
+                    </div>
+                </div>
+
+                <div class="inventory-actions">
+                    <button class="btn-restock">Restock to Max</button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+            <div class="inventory-card">
+                <div class="inventory-header">
+                    <h2 class="inventory-card-title">Coffee Beans</h2>
+                    <span class="inventory-status low">Low Stock</span>
+                </div>
+
+                <div class="inventory-section">
+                    <p class="inventory-label">Stock Level</p>
+                    <p class="inventory-stock-text">15 / 50 kg</p>
+
+                    <div class="inventory-progress">
+                        <div class="inventory-progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="inventory-info">
+                    <div class="inventory-info-row">
+                        <div>
+                            <p class="info-label">Min Stock</p>
+                            <p class="info-value">10 kg</p>
+                        </div>
+                        <div>
+                            <p class="info-label">Unit Cost</p>
+                            <p class="info-value">$12.50</p>
+                        </div>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Supplier</p>
+                        <p class="info-value">Premium Coffee Co.</p>
+                    </div>
+
+                    <div class="inventory-info-block">
+                        <p class="info-label">Last Restocked</p>
+                        <p class="info-value">11/15/2025</p>
+                    </div>
+                </div>
+
+                <div class="inventory-actions">
+                    <button class="btn-restock">Restock to Max</button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
