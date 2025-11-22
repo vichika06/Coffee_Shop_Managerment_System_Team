@@ -12,8 +12,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         messageDiv.innerHTML = "<i class=\"fa-solid fa-circle-check\"></i>Login successful! Redirecting...";
 
         setTimeout(function() {
-            window.location.href = "dashboard.html";
+            window.location.href = "admin-dashboard.html";
         }, 500);
+    }
+    else if(username === "staff" && password === "123") {
+        messageDiv.style.color = "green";
+        messageDiv.innerHTML = "<i class=\"fa-solid fa-circle-check\"></i>Login successful! Redirecting...";
+
+        setTimeout(function() {
+            window.location.href = "staff-dashboard.html";
+        }
+        , 500);
     }
     else {
         messageDiv.style.color = "red";
