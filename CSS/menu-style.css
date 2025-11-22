@@ -428,6 +428,9 @@ input:checked + .slider:before {
 .btn-update:hover {
     background: #0052a3;
 }
+#menu-edit-image{
+    cursor: pointer;
+}
 
 /* Mobile */
 @media (max-width: 480px) {
